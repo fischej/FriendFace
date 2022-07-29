@@ -42,7 +42,7 @@ struct ContentView: View {
                         }
                     case .failed:
                         VStack {
-                            Text("Failed to download articles")
+                            Text("Failed to download users.")
 
                             Button("Retry") {
                                 loadState = .loading
